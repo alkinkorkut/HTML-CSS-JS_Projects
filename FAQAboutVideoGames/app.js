@@ -1,3 +1,3 @@
-const questions = document.getSelectorAll(".question-container");
+const questions = document.querySelectorAll(".question-container");
 
 console.log(questions);
