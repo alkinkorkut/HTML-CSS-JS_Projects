@@ -37,3 +37,24 @@ h1 {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
+.question-title {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.question-answer {
+    display: none;
+}
+
+.question-container.active .question-answer {
+    display: block;
+}
+
+i {
+    position: absolute;
+    bottom: 10px;
+    right: 485px;
+}
+
+
+
