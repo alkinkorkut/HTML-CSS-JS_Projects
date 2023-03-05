@@ -9,5 +9,122 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Poppins', 'sans-serif',;
+    width: 100%;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+    color: #fff;
+    background-color: #555;
+    padding: 0 20px;
+}
+
+header nav a {
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: aqua;
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 100px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#features .feature-box {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #555;
+    padding: 10px;
+    width: 400px;
+    margin: 20px 0;
+}
+
+.feature-heading {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.fas {
+    color: rgb(167, 110, 5);
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.how-it-works {
+    width: 100%;
+    padding: 20px 40px;
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-box {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #555;
+    padding: 10px;
+    width: 400px;
+    margin: 20px 10px;
+}
+
+.price-box-body p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+} 
+
+.btn-select {
+    background-color: orange;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-select:hover {
+    background-color: rgb(138, 90, 0);
 }
